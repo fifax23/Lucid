@@ -1,0 +1,26 @@
+@import 'libs/bootstrap-reboot.min';
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+@import './base/variables';
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@import './blocks/nav';
+@import './blocks/promo';
+@import './blocks/title';
+@import './blocks/buttons';
+@import './blocks/features';
+@import './blocks/details';
+@import './blocks/like';
+@import './blocks/contacts';
+@import './blocks/form';
+@import './blocks/footer';

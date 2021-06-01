@@ -1,0 +1,16 @@
+.like {
+    min-height: 170px;
+    padding: 69px 0 66px 0;
+    background-color: #15141a;
+    &__title {
+        font-size: 36px;
+        span {
+            font-weight: 300;
+        }
+    }
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

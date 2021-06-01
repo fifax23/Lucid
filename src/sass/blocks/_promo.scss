@@ -1,0 +1,29 @@
+.promo {
+    min-height: 540px;
+    padding: 45px 0 110px 0;
+    background: url('../img/main_bg.jpg') center (center/cover) no-repeat;
+    position: relative;
+    top: 50px;
+    &__block {
+        max-width: 480px;
+    }
+    &__descr {
+        font-size: 18px;
+        font-weight: 400;
+        color: #999999;
+        margin-top: 20px;
+    }
+    &__btn-group {
+        max-width: 350px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+
+    }
+    &__devices {
+        position: absolute;
+        bottom: 0;
+        right: 170px;
+    }
+}
+

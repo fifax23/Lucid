@@ -1,0 +1,12 @@
+.footer {
+    min-height: 70px;
+    padding: 20px 0 20px 0;
+    background-color: #15141a;
+    &__descr {
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #444348;
+        text-align: center;
+    }
+}

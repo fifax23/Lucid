@@ -1,0 +1,51 @@
+.nav {
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    &__menu {
+        min-height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__items {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    &__item {
+        list-style-type: none;
+        margin-right: 20px;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+    &__link {
+        font-size: 16px;
+        font-weight: 600;
+        color: #fffefe;
+        transition: all 0.5s;
+        &:hover,:active {
+            text-decoration: none;
+            color: $main-color;
+        }
+    }
+}
+
+.active {
+    position: relative;
+    &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 2px;
+        top: 25px;
+        background-image: url(../img/divider.png);
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+}
+
+

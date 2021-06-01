@@ -1,0 +1,59 @@
+.details {
+    min-height: 600px;
+    padding: 65px 0 40px 0;
+    background-color: #f2f2f2;
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__box {
+        width: 50%;
+    }
+    &__descr {
+        font-size: 18px;
+        font-weight: 400;
+        color: #999999;
+        margin-top: 20px;
+    }
+    &__list {
+        margin-top: 15px;
+    }
+    &__li {
+        list-style-type: none;
+        font-size: 18px;
+        font-weight: 400;
+        position: relative;
+        margin-top: 10px;
+        margin-left: 30px;
+        color: #1b1b1b;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            left: -30px;
+            top: 4px;
+            width: 16px;
+            height: 17px;
+        }
+        &:nth-child(1):before {
+            background-image: url(../icons/details/cup.png);
+            background-repeat: no-repeat; 
+            background-position-x: center;
+        }
+        &:nth-child(2):before {
+            background-image: url(../icons/details/mouse.png);
+            background-repeat: no-repeat; 
+            background-position-x: center;
+        }
+        &:nth-child(3):before {
+            background-image: url(../icons/details/energy.png);
+            background-repeat: no-repeat; 
+            background-position-x: center;
+        }
+        &:nth-child(4):before {
+            background-image: url(../icons/details/speedometer.png); 
+            background-repeat: no-repeat;
+            background-position-x: center;
+        }
+    }
+}
